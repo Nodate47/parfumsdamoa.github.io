@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parfums d'Amoa - Produits agricoles de Poindimié</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eaf3ea;
+      color: #1b3d1b;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2d5d2d;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    img.logo {
+      display: block;
+      margin: 1rem auto;
+      width: 200px;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h1, h2 {
+      color: #3d3d3d;
+    }
+    footer {
+      background-color: #2d5d2d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Parfums d'Amoa</h1>
+</header>
+
+<img src="logo.png" alt="Logo Parfums d'Amoa" class="logo">
+
+<main>
+  <section>
+    <h2>🌿 À propos</h2>
+    <p>Parfums d’Amoa est une exploitation familiale située à la tribu de Saint Michel, Poindimié. Nous produisons localement et de manière naturelle de la vanille, des taros et des bananes. Nous sommes engagés pour une agriculture respectueuse de la terre et des traditions.</p>
+  </section>
+
+  <section>
+    <h2>🛒 Produits disponibles</h2>
+    <ul>
+      <li>🍌 Bananes</li>
+      <li>🍠 Taros</li>
+      <li>🌿 Vanille</li>
+    </ul>
+    <p><strong>Disponibilité actuelle :</strong><br>✔️ Vanille fraîche disponible<br>⏳ Taro : récolte prévue début juillet</p>
+  </section>
+
+  <section>
+    <h2>💬 Commander en ligne</h2>
+    <p>Remplissez ce formulaire pour passer commande. Une confirmation vous sera envoyée par mail ou téléphone selon la disponibilité des stocks.</p>
+    <form action="https://formsubmit.co/ntntein@gmail.com" method="POST">
+      <label>Nom complet *</label>
+      <input type="text" name="Nom" required>
+
+      <label>Numéro de téléphone *</label>
+      <input type="tel" name="Téléphone" required>
+
+      <label>Email *</label>
+      <input type="email" name="Email" required>
+
+      <label>Commune de livraison (en Nouvelle-Calédonie) *</label>
+      <input type="text" name="Commune" required>
+
+      <label>Produits & Quantités *</label>
+      <textarea name="Commande" placeholder="Ex: 2 kg de bananes, 3 gousses de vanille..." required></textarea>
+
+      <label>Commentaire (facultatif)</label>
+      <textarea name="Commentaire"></textarea>
+
+      <input type="hidden" name="_next" value="https://parfumsdamoa.github.io/merci.html">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit">Envoyer ma commande</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>📞 Contact</h2>
+    <p>Email : <a href="mailto:ntntein@gmail.com">ntntein@gmail.com</a><br>
+       Téléphone : 944931<br>
+       Adresse : BP 941, tribu de Saint Michel, Poindimié 98822<br>
+       Horaires : 8h à 18h (pause 11h–12h)</p>
+    <p><a href="https://wa.me/687944931" target="_blank">📱 Contacter via WhatsApp</a></p>
+  </section>
+</main>
+
+<footer>
+  © 2025 Parfums d’Amoa | Site en construction – d’autres produits arrivent bientôt.
+</footer>
+
+</body>
+</html>
